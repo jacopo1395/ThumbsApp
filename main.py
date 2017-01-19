@@ -1,8 +1,8 @@
 import facebook
 
-app_secret = '57346db13d27470f88c956331bcf76b6'
-app_id = '101075550373465'
-token = 'EAACEdEose0cBAJ02Y7PfmcIZBRZBLv5pkXIRyyDxnLQIUHqHeECLYzMW2ZBZB5OFlA4kULIqjsl9ycUyJzdgJQVffwT6bk99tHOO8PK0x65xgmz4VpOjw8STBAtEABPZBvmxeSqDHO7h3EljhLWK58x2kwr0TxgJESnQLSQKzngZDZD'
+app_secret = ''
+app_id = ''
+token = ''
 
 graph = facebook.GraphAPI(access_token=token, version='2.2')
 user = graph.request('me')
